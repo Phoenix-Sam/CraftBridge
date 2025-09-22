@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - CraftBridge</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">CraftBridge</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="artisans.html" class="nav-link">Artisans</a>
+                <a href="products.html" class="nav-link active">Products</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Explore Our Crafts</h1>
+                <p>Authentic, handcrafted pieces sourced directly from India's master artisans.</p>
+            </div>
+        </section>
+
+        <!-- Product Marketplace Section -->
+        <section class="product-marketplace container">
+            <!-- Sidebar for Filters -->
+            <aside class="filters-sidebar">
+                <h3>Filter & Sort</h3>
+                <div class="filter-group">
+                    <h4>Craft Type</h4>
+                    <a href="#" class="filter-link">Phulkari (5)</a>
+                    <a href="#" class="filter-link">Wood Carving (8)</a>
+                    <a href="#" class="filter-link">Kanjeevaram (3)</a>
+                    <a href="#" class="filter-link">Blue Pottery (12)</a>
+                </div>
+                <div class="filter-group">
+                    <h4>Region</h4>
+                     <a href="#" class="filter-link">Punjab (5)</a>
+                    <a href="#" class="filter-link">Uttar Pradesh (8)</a>
+                    <a href="#" class="filter-link">Tamil Nadu (3)</a>
+                    <a href="#" class="filter-link">Rajasthan (12)</a>
+                </div>
+                 <div class="filter-group">
+                    <h4>Sort By</h4>
+                    <select name="sort" id="sort-filter">
+                        <option value="popular">Popularity</option>
+                        <option value="low-high">Price: Low to High</option>
+                        <option value="high-low">Price: High to Low</option>
+                    </select>
+                </div>
+            </aside>
+
+            <!-- Product Grid -->
+            <div class="product-grid-container">
+                <div class="product-grid">
+                    <!-- Product Card 1 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://placehold.co/400x400/FDF5E6/A0522D?text=Phulkari+Dupatta" alt="Phulkari Dupatta">
+                        </div>
+                        <div class="product-info">
+                            <h3>Phulkari Dupatta</h3>
+                            <p class="artisan-name">by Rani Devi</p>
+                            <p class="product-price">₹2,499</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                     <!-- Product Card 2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://placehold.co/400x400/A0522D/FFFFFF?text=Wooden+Elephant" alt="Wooden Elephant">
+                        </div>
+                        <div class="product-info">
+                            <h3>Carved Wooden Elephant</h3>
+                            <p class="artisan-name">by Sanjay Varma</p>
+                            <p class="product-price">₹1,850</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                     <!-- Product Card 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://placehold.co/400x400/FDF5E6/A0522D?text=Silk+Saree" alt="Silk Saree">
+                        </div>
+                        <div class="product-info">
+                            <h3>Kanjeevaram Silk Saree</h3>
+                            <p class="artisan-name">by Lakshmi Priya</p>
+                            <p class="product-price">₹12,500</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                     <!-- Product Card 4 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://placehold.co/400x400/A0522D/FFFFFF?text=Blue+Pottery+Vase" alt="Blue Pottery Vase">
+                        </div>
+                        <div class="product-info">
+                            <h3>Blue Pottery Vase</h3>
+                            <p class="artisan-name">by Gopal Saini</p>
+                            <p class="product-price">₹3,200</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                     <!-- Add more cards as needed -->
+                </div>
+                 <!-- Pagination -->
+                <div class="pagination">
+                    <a href="#" class="page-link active">1</a>
+                    <a href="#" class="page-link">2</a>
+                    <a href="#" class="page-link">3</a>
+                    <a href="#" class="page-link">&raquo;</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-column">
+                <h3 class="logo">CraftBridge</h3>
+                <p class="footer-text">Weaving a fairer future for India's artisans, connecting heritage with the global market.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="artisans.html">Our Artisans</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <p class="footer-text">
+                    123, Artisan Street,<br>
+                    Jaipur, Rajasthan, 302001<br>
+                    Email: support@craftbridge.in
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 CraftBridge. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
